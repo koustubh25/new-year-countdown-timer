@@ -1,0 +1,60 @@
+
+
+@font-face{
+	font-family: 'moon_flower_downloaded';
+	src:url(Moon_Flower_Bold.ttf);
+}
+
+#timer { 
+	background: rgba(23,45,56,0.3) ; 
+	width: 80%;
+	left:10%;
+	top:30%;
+	height:30%;
+	position: absolute;
+	font-family: moon_flower_downloaded;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+
+#labels{
+	font-family: moon_flower_downloaded;
+	font-weight: bold;
+
+	width:80%;
+	height:20%;
+	left:10%;
+	background: rgba(23,45,56,0.3) ; 
+	top:50%;
+	position: relative;
+}
+
+/* Video Background Section */
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+
+#header{
+
+	font-family:moon_flower_downloaded;
+
+	text-align: center;
+	top:10%;
+	width:70%;
+	height:10%;
+	left:15%;
+
+	background-color: yellow;
+	position:absolute;
+
+
+
+}
+
