@@ -10,11 +10,12 @@
 	width: 80%;
 	left:10%;
 	top:30%;
-	height:30%;
+
 	position: absolute;
 	font-family: moon_flower_downloaded;
 	font-weight: bold;
 	text-align: center;
+	font-size: 210px;
 
 
 }
@@ -50,8 +51,8 @@ background-size: cover;
 	width:70%;
 	height:10%;
 	left:15%;
+	font-size: 58px;
 
-	background-color: yellow;
 	position:absolute;
 
 
