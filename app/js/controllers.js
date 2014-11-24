@@ -21,7 +21,7 @@ countdownControllers.controller('countdownController',['$scope','$timeout', func
 		//padding 0s in the beginning
     	$scope.seconds = ($scope.seconds < 10 ? ("0" + $scope.seconds.toString()) : $scope.seconds );
 		$scope.minutes = ($scope.minutes < 10 ? ("0" + $scope.minutes.toString()) : $scope.minutes );
-		$scope.hours = ($scope.hours < 10 ? ("0" + $scope.hours.toString()) : $hours );
+		$scope.hours = ($scope.hours < 10 ? ("0" + $scope.hours.toString()) : $scope.hours );
 		$scope.days = ($scope.days < 10 ? ("0" + $scope.days.toString()) : $scope.days );
 
 		//returning concatenated because of problems with alignment
