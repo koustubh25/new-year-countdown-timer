@@ -9,7 +9,7 @@ countdownControllers.controller('countdownController',['$scope','$timeout', func
 		var difference = function()
 		{
 		var presentTime = new Date();  //Current Date
-		var endTime = new Date("January 01, 2015 00:00:00");
+		var endTime = new Date("January 01, 2016 00:00:00");
 
 		var seconds = (moment(endTime).diff(moment(presentTime))) /1000;
 		
